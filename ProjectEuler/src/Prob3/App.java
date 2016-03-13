@@ -113,7 +113,7 @@ public class App {
 			
 			triangleNo = triangleNo + i;
 			i+=1;
-		     noFactor = pF.findFactors(triangleNo);
+		     noFactor = pF.findFactorsCount(triangleNo);
 			System.out.println(triangleNo+ ":" + noFactor );
 			
 		}
